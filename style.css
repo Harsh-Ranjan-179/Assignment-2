@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+header{
+    display: flex;
+    background-color: #e7ecef;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+.logo{
+    overflow: hidden;
+    padding: 5px 0px 0px 100px;
+}
+
+.logo > img{
+    width: 80px;
+    height: 60px;
+}
+
+.logo > img:hover{
+    cursor: pointer;
+}
+
+.highlight{
+    color: rgb(0, 145, 255);
+}
+
+#mainnav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    list-style-type: none;
+    padding: 20px;
+}
+
+#item{
+    display: inline;
+    padding: 12px;
+}
+
+#item:hover > a{
+    background-color: black;
+    color: white;
+}
+
+#item > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.username > button{
+    padding: 15px;
+    background-color: rgba(135, 207, 235, 0.549);
+    color: rgb(10, 99, 167);
+    font-weight: bold;
+}
+
+.username > button:hover{
+    cursor: pointer;
+    background-color: rgb(10, 99, 167);
+    color: rgba(135, 207, 235, 0.549);
+}
+
+.maindiv{
+    display: flex;
+    height: calc(100vh + 80px);
+    justify-content: center;
+    align-items: center;
+}
+
+.leftdiv{
+    padding: 70px;
+}
+
+.leftdiv > h1{
+    padding: 0px 50px;
+    font-size: 3.3em;
+}
+
+.leftdiv > p{
+    padding: 5px 50px 50px 50px;
+    font-size: 18px;
+}
+
+.leftdivbutton{
+    margin-left: 50px;
+}
+
+.leftdivbutton > button{
+    padding: 15px;
+    color: white;
+    background-color: #00a8e8;
+    font-weight: bold;
+}
+
+.leftdiv, .rightdiv {
+    flex: 1;
+}
+
+.rightdiv{
+    padding-left: 80px;
+}
+
+#img-w{
+    width: 450px;
+}
+
+.leftdivbutton > button:hover{
+    cursor: pointer;
+    color: #00a8e8;
+    background-color: white;
+}
